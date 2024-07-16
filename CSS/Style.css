@@ -19,17 +19,17 @@ nav {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
+    align-items: center;
 }
 
 ul {
     display: flex;
     gap: 60px;
     margin: 10px 0;
+    
 }
 
-ul li,
-a,
-.icon a {
+ul li,a,.icon a {
     list-style: none;
     text-decoration: none;
 }
@@ -38,6 +38,7 @@ a,
 .icon a {
     margin: 10px 0;
     padding: 0 7px;
+    
 
 
 }
@@ -100,7 +101,8 @@ a,
     padding: 26px 0 0 39px;
     margin: 20px 0 0;
 }
-.content .button-1 button:hover{
+
+.content .button-1 button:hover {
     cursor: pointer;
 }
 
@@ -286,23 +288,25 @@ a,
     justify-content: center;
     background-color: #2EC1AC;
 }
-.btn-2{
+
+.btn-2 {
     display: flex;
     justify-content: center;
-    padding: 20px 0 40px 0 ;
+    padding: 20px 0 40px 0;
 }
 
-.btn-2 button{
+.btn-2 button {
     background-color: #FFFFFF;
     width: 245px;
     height: 48px;
-  border: #B88E2F 1px solid;
-  color: #B88E2F;
-  line-height: 24px ;
-  font-weight: 600;
-  font-size: 16px;
-  
+    border: #B88E2F 1px solid;
+    color: #B88E2F;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+
 }
-.btn-2 button:hover{
+
+.btn-2 button:hover {
     cursor: pointer;
 }
